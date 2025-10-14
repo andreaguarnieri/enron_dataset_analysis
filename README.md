@@ -132,6 +132,21 @@ Findings:
 
 ---
 
+## 7. Reproducibility Notice
+
+The Jupyter notebooks included in this repository were originally developed and executed on **Google Colab**, in a collaborative environment.  
+As a result, some code cells may reference **Google Drive paths** or files that were accessible only within the authors’ private workspace.  
+
+These notebooks are provided **for transparency and reference purposes only** — to illustrate the workflow, preprocessing, and analyses described in the paper *“Unstructured Language Across Organizational Hierarchies”*.  
+They may not run end-to-end without adapting the data paths or mounting your own Google Drive environment.  
+
+To replicate the methodology:  
+- Use the scripts in the `/scripts/` directory to download and preprocess the Enron dataset.  
+- Adjust file paths inside the notebooks to match your local or Colab setup.  
+- All data sources are publicly available (**Enron Email Corpus; Klimt & Yang, 2004**).
+
+---
+
 ## References
 
 - Klimt, B., & Yang, Y. (2004). *The Enron Corpus.* CEAS Conference on Email and Anti-Spam.  
